@@ -102,6 +102,9 @@
    * to set the context to the correct object (the current context)
    *   and passing two aditional arguments, event and 'light-green'
    */
+  btn4.addEventListener('click', function(event){
+    setMyLightClass.apply(this, [event, 'light-green'])
+  });
  
   /*
    * Add a click event listener to btn5
